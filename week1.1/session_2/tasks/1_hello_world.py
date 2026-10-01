@@ -1,2 +1,6 @@
-# a basic Hello World program - write your code under this line
+print("hello")
+
+name=input("what is your name?")
+
+
 
