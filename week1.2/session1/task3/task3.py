@@ -4,9 +4,11 @@ fruit = ("apple", "banana", "cherry")
 print(fruit)
 
 # Find and display position of "banana"
-
+print(fruit.index("banana"))
 # Display how many times "cherry" occurs
-
+print(fruit.count("cherry"))
 # Display how many times "strawberry" occurs
-
+print(fruit.count("strawberry"))
 # Unpack tuple into variables
+fruit1,fruit2,fruit3=fruit
+print(fruit1,fruit2,fruit3)
