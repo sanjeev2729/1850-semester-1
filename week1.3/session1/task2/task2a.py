@@ -3,6 +3,8 @@
 k = 2
 while True:
     k = 2 * k 
+    if k > 200:
+        break
     print(k)
     
 
@@ -12,3 +14,7 @@ while True:
 # 1. Add a break statement to exit the loop if k>200
 
 # 2. Rewrite the code to directly use the while loop instead of break.
+k = 2
+while 2 * k<=200:
+    k = 2 * k
+    print(k)
