@@ -11,6 +11,15 @@
 # function implementation
 
 def mystery_func(string):
+    """Counts the number of uppercase and lowercase letters in a given string.
+    Charaters that are not letters are ignored in the count.
+    
+    Args:
+        string (str): The input string to be analyzed.
+
+    Returns:
+        tuple: A tuple containing the count of uppercase and lowercase letters respectively.
+    """
     upper = 0
     lower = 0
 
