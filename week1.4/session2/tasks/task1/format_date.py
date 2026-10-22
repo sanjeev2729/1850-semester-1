@@ -7,9 +7,14 @@
 
 
 def format_data(day, month, year, separator):
+    formatted_date = f"{day}{separator}{month}{separator}{year}"
     # complete your code here
 
     return formatted_date
 
 
 # Write code to test the function with separators such as "/", ":", "."
+print(format_data(1, 1, 2024, "-"))
+print(format_data(1, 1, 2024, "/"))
+print(format_data(1, 1, 2024, ":"))
+print(format_data(1, 1, 2024, "."))

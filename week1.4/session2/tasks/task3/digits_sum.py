@@ -19,8 +19,13 @@ def digits_sum(number):
     """
     # complete your code here
     # base case
+    if number < 10:
+        return number
 
     # recursive case
+    last_digit = number % 10
+    rest = number // 10
+    return last_digit + digits_sum(rest)
 
 
 # check if correct output is produced
