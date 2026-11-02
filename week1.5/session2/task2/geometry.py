@@ -63,3 +63,5 @@ class Circle:
         return 2.0 * math.pi * self.radius
 
     # Implement a __str__() method here
+    def __str__(self):
+        return f"Circle(radius={self.radius}, centre=({self.centre.x}, {self.centre.y}))"
